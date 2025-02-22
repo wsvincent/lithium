@@ -3,15 +3,14 @@ Lithium is a batteries-included Django starter project with everything you need 
 
 > This project was formerly known as _DjangoX_ but was renamed to _Lithium_ in November 2024.
 
-https://github.com/wsvincent/djangox/assets/766418/a73ea730-a7b4-4e53-bf51-aa68f6816d6a
+https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 
 ## 👋 Free Newsletter
 [Sign up for updates](https://buttondown.com/lithiumsaas) to the free and upcoming premium SaaS version!
 
 ## 🚀 Features
-
-- Django 5.1 & Python 3.12
-- Installation via [uv](https://docs.astral.sh/uv/) or [Docker](https://www.docker.com/)
+- Django 5.1 & Python 3.13
+- Installation via [Pip](https://pypi.org/project/pip/) or [Docker](https://www.docker.com/)
 - User authentication--log in, sign up, password reset--via [django-allauth](https://github.com/pennersr/django-allauth)
 - Static files configured with [Whitenoise](http://whitenoise.evans.io/en/stable/index.html)
 - Styling with [Bootstrap v5](https://getbootstrap.com/)
@@ -101,7 +100,7 @@ I cover all of these steps in tutorials and premium courses over at [LearnDjango
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/djangox/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/lithium/blob/master/CONTRIBUTING.md).
 
 ## ⭐️ Support
 
