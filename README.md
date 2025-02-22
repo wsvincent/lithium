@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 
 ## Table of Contents
 * **[Installation](#installation)**
-  * [Uv](#uv)
+  * [uv](#uv)
   * [Docker](#docker)
 * [Next Steps](#next-steps)
 * [Contributing](#contributing)
@@ -35,7 +35,7 @@ $ git clone https://github.com/wsvincent/lithium.git
 $ cd lithium
 ```
 
-### Uv
+### uv
 You can use [uv](https://docs.astral.sh/uv/) to create a dedicated virtual environment.
 
 ```
@@ -48,6 +48,17 @@ Then run `migrate` to configure the initial database. The command `createsuperus
 $ uv run manage.py migrate
 $ uv run manage.py createsuperuser
 $ uv run manage.py runserver
+# Load the site at http://127.0.0.1:8000 or http://127.0.0.1:8000/admin for the admin
+```
+
+### Pip
+To use Pip, create a new virtual environment and then install all packages hosted in `requirements.txt`. Run `migrate` to configure the initial database. and `createsuperuser` to create a new superuser account for accessing the admin. Execute the `runserver` commandt o start up the local server.
+
+```
+(.venv) $ pip install -r requirements.txt
+(.venv) $ python manage.py migrate
+(.venv) $ python manage.py createsuperuser
+(.venv) $ python manage.py runserver
 # Load the site at http://127.0.0.1:8000 or http://127.0.0.1:8000/admin for the admin
 ```
 
