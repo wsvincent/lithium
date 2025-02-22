@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 
 ## 🚀 Features
 - Django 5.1 & Python 3.13
-- Installation via [Pip](https://pypi.org/project/pip/) or [Docker](https://www.docker.com/)
+- Installation via [uv](https://github.com/astral-sh/uv), [Pip](https://pypi.org/project/pip/) or [Docker](https://www.docker.com/)
 - User authentication--log in, sign up, password reset--via [django-allauth](https://github.com/pennersr/django-allauth)
 - Static files configured with [Whitenoise](http://whitenoise.evans.io/en/stable/index.html)
 - Styling with [Bootstrap v5](https://getbootstrap.com/)
