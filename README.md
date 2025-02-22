@@ -10,7 +10,7 @@ https://github.com/wsvincent/djangox/assets/766418/a73ea730-a7b4-4e53-bf51-aa68f
 
 ## 🚀 Features
 
-- Django 5.1 & Python 3.12
+- Django 5.1 & Python 3.13
 - Installation via [Pip](https://pypi.org/project/pip/) or [Docker](https://www.docker.com/)
 - User authentication--log in, sign up, password reset--via [django-allauth](https://github.com/pennersr/django-allauth)
 - Static files configured with [Whitenoise](http://whitenoise.evans.io/en/stable/index.html)
