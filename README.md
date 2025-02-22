@@ -3,7 +3,7 @@ Lithium is a batteries-included Django starter project with everything you need 
 
 > This project was formerly known as _DjangoX_ but was renamed to _Lithium_ in November 2024.
 
-https://github.com/user-attachments/assets/20661fa9-4384-4bbf-9323-933ddc695a40
+https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 
 ## 👋 Free Newsletter
 [Sign up for updates](https://buttondown.com/lithiumsaas) to the free and upcoming premium SaaS version!
