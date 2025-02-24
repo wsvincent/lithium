@@ -21,6 +21,7 @@ https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 ## Table of Contents
 * **[Installation](#installation)**
   * [uv](#uv)
+  * [Pip](#pip)
   * [Docker](#docker)
 * [Next Steps](#next-steps)
 * [Contributing](#contributing)
