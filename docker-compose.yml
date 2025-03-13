@@ -8,12 +8,35 @@ services:
       - 8000:8000
     depends_on:
       - db
+    environment:
+      - "DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}"
+      - "DJANGO_DEBUG=${DJANGO_DEBUG}"
+      - "POSTGRES_DB=${POSTGRES_DB}"
+      - "POSTGRES_USER=${POSTGRES_USER}"
+      - "POSTGRES_PASSWORD=${POSTGRES_PASSWORD}"
+      - "POSTGRES_HOST=${POSTGRES_HOST}"
+      - "POSTGRES_PORT=${POSTGRES_PORT}"
+    networks:
+      - default
+    env_file:
+      - .env
   db:
     image: postgres:16
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
+      - "POSTGRES_DB=${POSTGRES_DB}"
+      - "POSTGRES_USER=${POSTGRES_USER}"
+      - "POSTGRES_PASSWORD=${POSTGRES_PASSWORD}"
       - "POSTGRES_HOST_AUTH_METHOD=trust"
+    networks:
+      - default
+    env_file:
+      - .env
 
 volumes:
   postgres_data:
+
+networks:
+  default:
+    name: django-docker-compose-network
