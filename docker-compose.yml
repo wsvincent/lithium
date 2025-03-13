@@ -39,4 +39,4 @@ volumes:
 
 networks:
   default:
-    name: django-docker-compose-network
+    name: lithium-network
