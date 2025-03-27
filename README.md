@@ -43,7 +43,7 @@ You can use [uv](https://docs.astral.sh/uv/) to create a dedicated virtual envir
 $ uv sync
 ```
 
-Then run `migrate` to configure the initial database. The command `createsuperuser` will create a new superuser account for accessing the admin. Execute the `runserver` commandt o start up the local server.
+Then run `migrate` to configure the initial database. The command `createsuperuser` will create a new superuser account for accessing the admin. Execute the `runserver` command to start up the local server.
 
 ```
 $ uv run manage.py migrate
