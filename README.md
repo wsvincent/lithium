@@ -53,7 +53,7 @@ $ uv run manage.py runserver
 ```
 
 ### Pip
-To use Pip, create a new virtual environment and then install all packages hosted in `requirements.txt`. Run `migrate` to configure the initial database. and `createsuperuser` to create a new superuser account for accessing the admin. Execute the `runserver` commandt o start up the local server.
+To use Pip, create a new virtual environment and then install all packages hosted in `requirements.txt`. Run `migrate` to configure the initial database. and `createsuperuser` to create a new superuser account for accessing the admin. Execute the `runserver` command to start up the local server.
 
 ```
 (.venv) $ pip install -r requirements.txt
