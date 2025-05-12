@@ -5,7 +5,7 @@ charset-normalizer==3.0.1
 crispy-bootstrap5==2024.10
 cryptography==39.0.1
 defusedxml==0.7.1
-Django==5.1.2
+Django==5.1.9
 django-allauth==65.0.2
 django-crispy-forms==2.3
 django-debug-toolbar==4.4.6
