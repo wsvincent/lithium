@@ -12,7 +12,9 @@ db.sqlite3
 media
 
 # Virtual environment
+venv/
 .venv
+.env
 
 # Screencast
 Lithium_Demo_2025.mp4
