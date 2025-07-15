@@ -1,7 +1,10 @@
+import os
+from dotenv import load_dotenv
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(os.path.join(BASE_DIR, '.env'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -165,8 +168,16 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#email-backend
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
+# You should define EMAIL_HOST_USER and EMAIL_HOST_PASSWORD
+# in your .env file. If one of them is not found, django uses default console.EmailBackend
+if not EMAIL_HOST_USER or not EMAIL_HOST_PASSWORD:
+    EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 # https://docs.djangoproject.com/en/dev/ref/settings/#default-from-email
 DEFAULT_FROM_EMAIL = "root@localhost"
 
