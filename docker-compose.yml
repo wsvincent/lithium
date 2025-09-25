@@ -8,12 +8,22 @@ services:
       - 8000:8000
     depends_on:
       - db
+    networks:
+      - default
+    env_file:
+      - .env
   db:
     image: postgres:16
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    environment:
-      - "POSTGRES_HOST_AUTH_METHOD=trust"
+    networks:
+      - default
+    env_file:
+      - .env
 
 volumes:
   postgres_data:
+
+networks:
+  default:
+    name: lithium-network
