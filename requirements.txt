@@ -16,7 +16,7 @@ packaging==24.2
 psycopg==3.3.3
 psycopg-binary==3.3.3
 pycparser==3.12
-pyjwt==2.10.0
+pyjwt==2.15.0
 python3-openid==3.2.0
 requests==2.32.3
 sqlparse==0.5.2
