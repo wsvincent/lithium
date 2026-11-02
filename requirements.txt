@@ -1,6 +1,6 @@
 asgiref==3.11.1
 certifi==2024.8.30
-cffi==1.17.1
+cffi==2.1.1
 charset-normalizer==3.4.0
 crispy-bootstrap5==2026.3
 cryptography==43.0.3
@@ -15,7 +15,7 @@ oauthlib==3.3.1
 packaging==24.2
 psycopg==3.3.3
 psycopg-binary==3.3.3
-pycparser==2.22
+pycparser==3.12
 pyjwt==2.10.0
 python3-openid==3.2.0
 requests==2.32.3
