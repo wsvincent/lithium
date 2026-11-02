@@ -109,7 +109,7 @@ I cover all of these steps in tutorials and premium courses over at [LearnDjango
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/lithium/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/lithium/blob/main/CONTRIBUTING.md).
 
 ## ⭐️ Support
 
