@@ -9,12 +9,8 @@ django==6.1.2
 django-allauth==65.21.1
 django-crispy-forms==2.7
 django-debug-toolbar==8.0.0
-gunicorn==25.3.0
 idna==3.20
 oauthlib==4.0.1
-packaging==26.3
-psycopg==3.3.6
-psycopg-binary==3.3.6 ; implementation_name != 'pypy'
 pycparser==3.12 ; implementation_name != 'PyPy' and platform_python_implementation != 'PyPy'
 pyjwt==2.15.1
 python3-openid==3.2.0
