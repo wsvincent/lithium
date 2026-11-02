@@ -6,7 +6,7 @@ Lithium is a batteries-included Django starter project with everything you need 
 https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 
 ## 🚀 Features
-- Django 6.0 & Python 3.13
+- Django 6.1 & Python 3.12+
 - Installation via [uv](https://github.com/astral-sh/uv), [Pip](https://pypi.org/project/pip/) or [Docker](https://www.docker.com/)
 - User authentication--log in, sign up, password reset--via [django-allauth](https://github.com/pennersr/django-allauth)
 - Static files configured with [Whitenoise](http://whitenoise.evans.io/en/stable/index.html)
@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/8698e9dd-1794-4f96-9c3f-85add17e330b
 * [License](#license)
 
 ## 📖 Installation
-Lithium can be installed via Pip or Docker. To start, clone the repo to your local computer and change into the proper directory.
+Lithium requires Python 3.12 or newer and can be installed via uv, Pip, or Docker. To start, clone the repo to your local computer and change into the proper directory.
 
 ```
 $ git clone https://github.com/wsvincent/lithium.git
@@ -101,7 +101,7 @@ $ docker compose exec web python manage.py createsuperuser
 
 - Add environment variables. There are multiple packages but I personally prefer [environs](https://pypi.org/project/environs/).
 - Add [gunicorn](https://pypi.org/project/gunicorn/) as the production web server.
-- Update the [EMAIL_BACKEND](https://docs.djangoproject.com/en/4.0/topics/email/#module-django.core.mail) and connect with a mail provider.
+- Update [MAILERS](https://docs.djangoproject.com/en/6.1/topics/email/) and connect with a mail provider.
 - Make the [admin more secure](https://opensource.com/article/18/1/10-tips-making-django-admin-more-secure).
 - `django-allauth` supports [social authentication](https://django-allauth.readthedocs.io/en/latest/socialaccount/index.html) if you need that.
 

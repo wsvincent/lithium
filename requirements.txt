@@ -1,25 +1,26 @@
-asgiref==3.11.1
-certifi==2024.8.30
-cffi==2.1.1
-charset-normalizer==3.4.0
-crispy-bootstrap5==2026.3
-cryptography==43.0.3
+asgiref==3.13.0
+certifi==2026.10.23
+cffi==2.1.1 ; platform_python_implementation != 'PyPy'
+charset-normalizer==3.5.2
+crispy-bootstrap5==2026.9
+cryptography==50.0.2
 defusedxml==0.7.1
-django==6.0.4
-django-allauth==65.15.1
-django-crispy-forms==2.3
-django-debug-toolbar==6.3.0
+django==6.1.2
+django-allauth==65.21.1
+django-crispy-forms==2.7
+django-debug-toolbar==8.0.0
 gunicorn==25.3.0
-idna==3.10
-oauthlib==3.3.1
-packaging==24.2
-psycopg==3.3.3
-psycopg-binary==3.3.3
-pycparser==3.12
-pyjwt==2.10.0
+idna==3.20
+oauthlib==4.0.1
+packaging==26.3
+psycopg==3.3.6
+psycopg-binary==3.3.6 ; implementation_name != 'pypy'
+pycparser==3.12 ; implementation_name != 'PyPy' and platform_python_implementation != 'PyPy'
+pyjwt==2.15.1
 python3-openid==3.2.0
-requests==2.32.3
-sqlparse==0.5.2
-typing-extensions==4.12.2
-urllib3==2.2.3
+requests==2.34.2
+sqlparse==0.6.1
+typing-extensions==4.16.0
+tzdata==2026.6 ; sys_platform == 'win32'
+urllib3==2.8.0
 whitenoise==6.12.0
